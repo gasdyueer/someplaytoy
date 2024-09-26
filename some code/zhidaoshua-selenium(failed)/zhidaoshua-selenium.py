@@ -26,8 +26,8 @@ login_elements.click()
 
 
 # 输入用户名密码
-phonenumber = '18908385621'
-password = '031112ZJHzjh'
+phonenumber = ''
+password = ''
 phonenumber_element = wd.find_element(By.ID, 'lUsername')
 phonenumber_element.send_keys(phonenumber)
 sleep(1)
